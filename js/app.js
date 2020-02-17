@@ -1,4 +1,5 @@
 `use strict`
+
 var name = prompt("Whats your name?");
 alert(`Welcome ${name}, I wanna play with you a guess game.`);
 
@@ -18,7 +19,7 @@ switch (Q1.toLowerCase()) {
         break;
     default:
         alert("You didn't even try");
-    //    console.log('Do you think am I love coffe?', Q1);
+        //    console.log('Do you think am I love coffe?', Q1);
         break;
 }
 var Q2 = prompt('Do you think I am a good in English language?');
@@ -38,7 +39,7 @@ switch (Q2.toUpperCase()) {
 
     default:
         alert("Why you didn't try to guess!");
-    //    console.log('do you think I am a good in English language', Q2);
+        //    console.log('do you think I am a good in English language', Q2);
 
         break;
 }
@@ -57,7 +58,7 @@ switch (Q3.toLowerCase()) {
         break;
     default:
         alert("Can you please force your self a little to play with me");
-     //   console.log('Do you think can I play football?', Q3);
+        //   console.log('Do you think can I play football?', Q3);
 
         break;
 }
@@ -78,7 +79,7 @@ switch (Q4.toLowerCase()) {
 
     default:
         alert("try a guess please");
-     //   console.log('Do you think am I watch Anime?', Q4);
+        //   console.log('Do you think am I watch Anime?', Q4);
         break;
 }
 var Q5 = prompt('Do you think am I own a cat?');
@@ -96,7 +97,7 @@ switch (Q5.toUpperCase()) {
         break;
     default:
         alert("Try again please, this is a yes/no qustion");
-  //      console.log('Do you think am I own a cat?', Q5);
+        //      console.log('Do you think am I own a cat?', Q5);
         break;
 }
 
