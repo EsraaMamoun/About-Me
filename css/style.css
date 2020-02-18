@@ -2,13 +2,13 @@ header h2{
     font-size: 50px;
     font-family: Arial, "Helvetica Neue", Helvetica, serif;
     font-style: oblique;
-    color: darkred;
-    background-color: black;
+    color: rgb(245, 237, 155);
+    background-color: rgb(3, 3, 92);
     text-align: center;
     height: 50px;
 }
 body{
-    background-color: rgb(186, 198, 211);
+    background-color: rgb(245, 237, 155);
 }
 section p{
     font-size: 60px;
@@ -16,11 +16,10 @@ section p{
     width: 100%;
     text-align: center;
     border: thick solid black;
-    color: rgb(90, 8, 126);
+    color: rgb(3, 3, 92);
 }
 
 footer{
-    background-color:rgb(245, 237, 155);
     color: rgb(3, 3, 92);
     font-size: 30px;
     text-align: center;
