@@ -169,6 +169,6 @@ for (var i=1 ; i<=4 ; i++){
             answer = prompt(`Try again, you lost ${j} attempts, you have now only ${atempts} attempts`);
         }
     }
-
+alert(`My favourite color listi is: ${favColor[0]}, ${favColor[1]}, ${favColor[2]}, ${favColor[3]}.`);
 alert(`You have got ${correct} out of 7 score`);
 alert(`Thank you very much ${name}, for spending some of your valuable time on my site.`);
