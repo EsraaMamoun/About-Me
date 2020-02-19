@@ -128,9 +128,9 @@ for (var i=1 ; i<=4 ; i++){
         console.log("too high");
     }
     else if (guessNum == 70){
-        alert("You are correct, the answer is " + 70);
+        alert("You are correct.");
         correct=correct+1;
-        console.log("You are correct, the answer is " , 70);
+        console.log("You are correct.");
         alert("It took you " + i +" tries");
         console.log("It took you " , i ," tries");
         break;
@@ -140,7 +140,7 @@ for (var i=1 ; i<=4 ; i++){
     }
          
     }  
-
+    alert('The right answer is: 70');
 
      
     var favColor =['blue','black','yellow','orange'];
