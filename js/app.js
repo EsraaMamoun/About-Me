@@ -3,7 +3,9 @@ var correct=0;
 var name = prompt("Whats your name?");
 alert(`Welcome ${name}, I wanna play with you a guess game.`);
 
-var Q1 = prompt('Do you think am I love coffe?');
+function question1()
+{
+    var Q1 = prompt('Do you think am I love coffe?');
 
 switch (Q1.toLowerCase()) {
     case 'yes':
@@ -23,7 +25,13 @@ switch (Q1.toLowerCase()) {
         //    console.log('Do you think am I love coffe?', Q1);
         break;
 }
-var Q2 = prompt('Do you think I am a good in English language?');
+}
+
+question1();
+
+function question2 ()
+{
+    var Q2 = prompt('Do you think I am a good in English language?');
 switch (Q2.toUpperCase()) {
     case 'YES':
     case 'Y':
@@ -45,7 +53,12 @@ switch (Q2.toUpperCase()) {
 
         break;
 }
-var Q3 = prompt('Do you think can I play football?');
+}
+question2();
+
+function question3()
+{
+    var Q3 = prompt('Do you think can I play football?');
 switch (Q3.toLowerCase()) {
     case 'yes':
     case 'y':
@@ -64,7 +77,12 @@ switch (Q3.toLowerCase()) {
         //   console.log('Do you think can I play football?', Q3);
 
         break;
-}
+}}
+
+question3();
+
+function question4()
+{
 var Q4 = prompt('Do you think am I watch Anime?');
 
 switch (Q4.toLowerCase()) {
@@ -85,7 +103,12 @@ switch (Q4.toLowerCase()) {
         alert("try a guess please");
         //   console.log('Do you think am I watch Anime?', Q4);
         break;
-}
+}}
+
+question4();
+
+function question5()
+{
 var Q5 = prompt('Do you think am I own a cat?');
 
 switch (Q5.toUpperCase()) {
@@ -105,9 +128,11 @@ switch (Q5.toUpperCase()) {
         //      console.log('Do you think am I own a cat?', Q5);
         break;
 }
+}
+question5();
 
-
-
+function question6()
+{
 for (var i=1 ; i<=4 ; i++){
     var guessNum = prompt('guess a number from 1 to 100');
     if (guessNum > 100){
@@ -141,8 +166,11 @@ for (var i=1 ; i<=4 ; i++){
          
     }  
     alert('The right answer is: 70');
+}
 
+question6();
      
+function question7(){
     var favColor =['blue','black','yellow','orange'];
     var answer = prompt('Can you guess whats my favourte color');
     for (var j=1 ; j<6 ; j++){
@@ -170,5 +198,7 @@ for (var i=1 ; i<=4 ; i++){
         }
     }
 alert(`My favourite color listi is: ${favColor[0]}, ${favColor[1]}, ${favColor[2]}, ${favColor[3]}.`);
+}
+question7();
 alert(`You have got ${correct} out of 7 score`);
 alert(`Thank you very much ${name}, for spending some of your valuable time on my site.`);
