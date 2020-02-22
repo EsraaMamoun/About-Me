@@ -197,7 +197,7 @@ function question7(){
             answer = prompt(`Try again, you lost ${j} attempts, you have now only ${atempts} attempts`);
         }
     }
-alert(`My favourite color listi is: ${favColor[0]}, ${favColor[1]}, ${favColor[2]}, ${favColor[3]}.`);
+alert(`My favourite color list is: ${favColor[0]}, ${favColor[1]}, ${favColor[2]}, ${favColor[3]}.`);
 }
 question7();
 alert(`You have got ${correct} out of 7 score`);

@@ -11,4 +11,3 @@
 Batool Al-Ali is the Dirver
 Esraa abdelqader is the Navigator
 
-we worked together on the code to move all questions into functions.
